@@ -1,0 +1,29 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    // Toggle between terminal and editor focus
+{
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus"
+},
+{
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+},
+    // duplicate line
+{
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+},
+{
+    "key": "ctrl+shift+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+},
+{
+    "key": "ctrl+shift+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+}
+]
