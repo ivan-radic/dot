@@ -36,5 +36,10 @@
     "command": "editor.action.selectHighlights",
     "when": "editorFocus"
 },
+{
+    "key": "ctrl+q",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+},
 
 ]
