@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite the default settings
+{
+  // The path of the shell that the terminal uses on Windows. When using shells shipped with Windows (cmd, PowerShell or Bash on Ubuntu), prefer C:\Windows\sysnative over C:\Windows\System32 to use the 64-bit versions.
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+  // Customizes which terminal to run on Windows.
+  "terminal.external.windowsExec": "git-bash",
+  "explorer.confirmDragAndDrop": false,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [100]
+}
