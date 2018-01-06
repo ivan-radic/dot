@@ -31,7 +31,7 @@
     "command": "editor.action.deleteLines",
     "when": "editorTextFocus && !editorReadonly"
 },
-{ 
+{
     "key": "ctrl+shift+k",
     "command": "editor.action.selectHighlights",
     "when": "editorFocus"
@@ -41,5 +41,19 @@
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
 },
-
+{
+    "key": "ctrl+shift+u",
+    "command": "editor.action.transformToUppercase",
+    "when": "editorTextFocus"
+ },
+ {
+    "key": "ctrl+u",
+    "command": "editor.action.transformToLowercase",
+    "when": "editorTextFocus"
+ },
+ {
+    "key": "ctrl+alt+left",
+    "command": "cursorUndo",
+    "when": "editorTextFocus"
+},
 ]
