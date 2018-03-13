@@ -1,6 +1,6 @@
 # alias section
 
-alias rcedit='vi ~/.bashrc'
+alias rcedit='vi ~/.bashrc.user'
 alias rcsource='source ~/.bashrc'
 alias ...='cd ..'
 alias ....='cd ../..'
